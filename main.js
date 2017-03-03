@@ -14,8 +14,8 @@ $(document).ready(function(){
     '<div class ='+ myClass +'><a href="'+ "https://www.reddit.com"+ link +'"><img src="'
       + thumbnail +
       '"/></a></div><h2>'+title +
-      '</h2><h3>Author :' + author + '</h3><h2> Score : '+ score + '</h2>').addClass('section');
-    $('section').append()
+      '</h2><h3>Author :' + author + '</h3><h4> Score : '+ score + '</h4>').addClass('section');
+    
     
 
       console.log(thumbnail);
